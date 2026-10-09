@@ -34,12 +34,12 @@ Observação: os parâmetros `type` e nomes de campos podem variar conforme a do
 
 ## Comandos
 Grupo `/kauth`:
-- `/kauth info key:<texto>` — Consulta dados de uma key
-- `/kauth gerar amount:<int> [expiry_days] [level]` — Cria `amount` chaves com validade e nível informados
-- `/kauth ban key:<texto>` — Bane a key
-- `/kauth unban key:<texto>` — Desbane a key
-- `/kauth reset key:<texto>` — Reseta HWID da key
-- `/kauth deletar key:<texto>` — Exclui a key
+- `/kauth info key:<texto>`: consulta dados de uma key
+- `/kauth gerar amount:<int> [expiry_days] [level]`: cria `amount` chaves com validade e nível informados
+- `/kauth ban key:<texto>`: bane a key
+- `/kauth unban key:<texto>`: desbane a key
+- `/kauth reset key:<texto>`: reseta HWID da key
+- `/kauth deletar key:<texto>`: exclui a key
 
 Permissões: por padrão, somente administradores do servidor. Edite `utils/checks.py` para permitir usuários específicos.
 
